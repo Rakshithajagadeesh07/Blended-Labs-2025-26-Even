@@ -29,7 +29,7 @@ The objective of this lab is to understand how AWS Identity and Access Managemen
 - Inspected managed and inline policies attached to groups  
 **Screenshot:**  
 
-<img width="1522" height="722" alt="image" src="https://github.com/user-attachments/assets/e7d2952a-6c28-4873-98ee-85d5d1f9b6d6" />
+<img width="1811" height="781" alt="image" src="https://github.com/user-attachments/assets/ec47eaa4-2472-4c25-a7bd-436f345839d8" />
 
 
 ### Task 2: Add Users to Groups
