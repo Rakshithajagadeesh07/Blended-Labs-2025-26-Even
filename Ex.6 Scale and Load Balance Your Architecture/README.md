@@ -1,9 +1,10 @@
 # Lab 6 – Scale and Load Balance Your Architecture
 
-## Title
+#### Author : 
 
-Scale and Load Balance Your Architecture
-Author : your name   Reg no : yours   Date :
+* **Name** : RAKSHITHA J
+* **Register number** : 212223240135
+* **Date of submission** : 17-03-2026
 
 ---
 
@@ -66,11 +67,28 @@ Students test the setup by generating traffic and observing automatic scaling an
 
 ## Workflow (To be filled by Student)
 
-Describe step-by-step how you performed this experiment in your own words.
+1.Review Existing Architecture – Examine the previously created Amazon EC2 application setup and understand how the current infrastructure works.
+
+2.Create Launch Template – Configure a launch template specifying the AMI, instance type, security group, and user data for EC2 instances.
+
+3.Set Up Auto Scaling Group – Create an Auto Scaling Group using the launch template and define the minimum, maximum, and desired instance capacity.
+
+4.Configure Application Load Balancer – Set up an AWS Application Load Balancer and create target groups to distribute incoming traffic across EC2 instances.
+
+5.Attach and Test Scaling – Connect the Auto Scaling Group to the load balancer target group, configure CPU-based scaling policies using Amazon CloudWatch, and test by generating traffic to observe load balancing and automatic scaling.
 
 ---
 
 ## Output Screenshots 
+
+
+<img width="1689" height="709" alt="Screenshot 2026-03-10 210649" src="https://github.com/user-attachments/assets/8d925c99-ed45-412e-a116-32cebc40b384" />
+
+
+<img width="1920" height="1020" alt="Screenshot 2026-03-09 205052" src="https://github.com/user-attachments/assets/3d73570f-fa21-4ab6-8873-d5a49c2cfc82" />
+
+
+<img width="1920" height="1020" alt="Screenshot 2026-03-12 132817" src="https://github.com/user-attachments/assets/ebced12d-a2a5-4563-bec3-982cfd0e0724" />
 
 
 ---
@@ -79,3 +97,8 @@ Describe step-by-step how you performed this experiment in your own words.
 ## Result
 
 This experiment demonstrated how to build a scalable and fault-tolerant cloud architecture using Auto Scaling Groups and Elastic Load Balancing. The system automatically adjusted resources based on workload and ensured continuous service availability by distributing traffic across multiple instances.
+
+
+
+
+
